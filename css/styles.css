@@ -14,6 +14,9 @@ body {
   font-family: var(--main-font);
   color: var(--main-color);
 }
+:link {
+  color: var(--brand-color);
+}
 .btn {
   font-weight: 500;
   font-size: 16px;
