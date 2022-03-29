@@ -170,9 +170,10 @@ body {
 }
 .footer-adress-mail > a:active,
 .footer-adress-mail > a:hover,
+.footer-adress-mail > a:focus,
 .footer-adress-tel > a:active,
 .footer-adress-tel > a:hover,
-.footer-adress-tel > a:active {
+.footer-adress-tel > a:focus {
   color: var(--brand-color);
   cursor: pointer;
 }
