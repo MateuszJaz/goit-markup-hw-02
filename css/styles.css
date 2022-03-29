@@ -83,7 +83,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   font-style: normal;
-  line-height: 1.193;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--main-color);
@@ -141,11 +141,11 @@ body {
 .footer-box {
   background-color: #2f303a;
 }
-.footer-logo-accent {
+.footer-logo-accent,
+.footer-logo-accent:hover {
   color: var(--brand-color);
 }
 .footer-logo-link,
-.footer-logo-link :hover,
 .footer-logo-link:visited .footer-logo-link:active {
   font-family: var(--logo-font);
   font-weight: 700;
@@ -163,8 +163,24 @@ body {
   color: #fff;
   text-decoration: none;
 }
-.footer-adress-mail,
-.footer-adress-tel {
+.footer-adress-tel,
+.footer-adress-mail > a,
+.footer-adress-tel > a {
+  text-decoration: none;
+}
+.footer-adress-mail > a:active,
+.footer-adress-mail > a:hover,
+.footer-adress-tel > a:active,
+.footer-adress-tel > a:hover,
+.footer-adress-tel > a:active {
+  color: var(--brand-color);
+  cursor: pointer;
+}
+
+.footer-adress-mail > a,
+.footer-adress-mail > a:visited,
+.footer-adress-tel > a,
+.footer-adress-tel > a:visited {
   color: rgba(255, 255, 255, 0.6);
 }
 /* ---END FOOTER--- */
