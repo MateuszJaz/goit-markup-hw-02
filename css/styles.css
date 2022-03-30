@@ -100,8 +100,10 @@ body {
 }
 .menu-nav-link:hover,
 .menu-nav-link:active,
+.menu-nav-link:focus,
 .contact-nav-link:hover,
-.contact-nav-link:active {
+.contact-nav-link:active,
+.contact-nav-link:focus {
   color: var(--brand-color);
   cursor: pointer;
 }
