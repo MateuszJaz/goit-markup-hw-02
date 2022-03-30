@@ -99,7 +99,8 @@ body {
   color: var(--main-color);
 }
 .menu-nav-link:hover,
-.contact-nav-link:hover {
+.menu-nav-link:active,
+.contact-nav-link:hover .contact-nav-link:active {
   color: var(--brand-color);
   cursor: pointer;
 }
