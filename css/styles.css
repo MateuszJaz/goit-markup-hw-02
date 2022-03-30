@@ -96,7 +96,12 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
+}
+.menu-nav-link {
   color: var(--main-color);
+}
+.contact-nav-link {
+  color: var(--secondary-color);
 }
 .menu-nav-link:hover,
 .menu-nav-link:active,
