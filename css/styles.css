@@ -100,7 +100,8 @@ body {
 }
 .menu-nav-link:hover,
 .menu-nav-link:active,
-.contact-nav-link:hover .contact-nav-link:active {
+.contact-nav-link:hover,
+.contact-nav-link:active {
   color: var(--brand-color);
   cursor: pointer;
 }
@@ -147,7 +148,8 @@ body {
   color: var(--brand-color);
 }
 .footer-logo-link,
-.footer-logo-link:visited .footer-logo-link:active {
+.footer-logo-link:visited,
+.footer-logo-link:active {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
